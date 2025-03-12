@@ -1,0 +1,29 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.custom-yellow {
+    color: #FAD85D;
+}
+
+.bg-custom-yellow {
+    background-color: #FAD85D;
+}
+
+.border-custom-yellow {
+    border-color: #FAD85D;
+}
+
+.hover\:bg-custom-yellow-80:hover {
+    background-color: rgba(250, 216, 93, 0.8);
+}
+
+.hover\:shadow-custom-yellow-20:hover {
+    box-shadow: 0 0 15px rgba(250, 216, 93, 0.2);
+}
+
+.nav-link.active {
+    color: #FAD85D;
+    font-weight: bold;
+    border-bottom: 2px solid #FAD85D;
+}
